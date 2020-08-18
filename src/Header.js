@@ -121,4 +121,5 @@ const mapStateToProps = (state) => {
     email: state.email,
   };
 };
+
 export default connect(mapStateToProps)(Header);
